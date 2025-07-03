@@ -1,0 +1,10 @@
+name = input("What is your name? ")
+food = input("What is your favorite food? ")
+birth_year = input("What is your birth year? ")
+fav_num = input("What is your favorite number? ")
+language = input("What is your favorite language? ")
+
+print("--- Survey Summary ---")
+print(f"Hello, {name}! Your  birth year is {birth_year}  .")
+print(f"{food} is your favorite food , {fav_num} is your favorite number .")
+print(f"{language} langauage is ur favorite. Thanks for sharing!")
